@@ -1,0 +1,25 @@
+body {
+    background-color: #F7F6F1;
+    text-align: center;
+}
+
+.cont {
+    margin: 100px auto;
+    width: 80%;
+}
+
+div.cont img {
+    box-shadow: 10px 10px 8px #9C968B;
+    transition: transform .3s;
+    max-width: 290px;
+    max-height: 290px;
+}
+
+div.cont img:hover{
+    transform: scale(1.5);
+    box-shadow: none;
+}
+
+a {
+    margin-bottom: 20px;
+}

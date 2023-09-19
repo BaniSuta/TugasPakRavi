@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font-size: 100%; */
+    /* font: inherit; */
+    /* vertical-align: baseline; */
+}
+
+.header {
+    display: flex;
+    background-color: #9C968B;
+    height: 200px;
+    justify-content: center;
+}
+
+.profile {
+    position: relative;
+    top: 80px;
+}
+
+.body {
+    margin-top: 20px;
+    display: flex;
+}
+
+body {
+    background-color: #F7F6F1;
+}
+
+.center {
+    text-align: justify;
+    margin-left: 90px;
+    width: 500px;
+}
+
+.separate{
+    display: flex;
+}
+
+.separate-left {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.separate-right {
+    margin-top: 30px;
+    width: 400px;
+}
+
+.img-center {
+    width:fit-content;
+    height: 200px;
+}
+
+.img-right {
+    width: fit-content;
+    height: 400px;
+}
+
+.right {
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 50px;
+    width: 500px;
+}
+
+.left {
+    margin-top: 100px;
+    text-align: justify;
+    margin-left: 90px;
+    width: 300px;
+}
+
+.picture {
+    position: absolute;
+    top: 98px;
+    left: 120px;
+}
+
+.picture img {
+    box-shadow: 16px 13px 20px #414140;
+    border-radius: 100px;
+}
+
+.left p {
+    margin-bottom: 15px;
+}
+
+.left li {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 5px;
+}
+
+.left li img {
+    width: fit-content;
+    height: 16px;
+}
+
+li label {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.info-edu {
+    margin-left: 25px;
+}
+
+.edu {
+    display: flex;
+}
+
+.edu p{
+    margin-top: 10px;
+}
+
+ul.exp li {
+    margin-left: 17px;
+}
+
+ul.hobby li {
+    margin-left: 17px;
+}
+
+.right-skill {
+    margin-top: -5px;
+}
+
+.right-skill ul li {
+    margin-left: 17px;
+}
+
+.right-skill ul li img {
+    margin-left: 9px;
+    display: block;
+}
+
+.right-hobby {
+    margin-top: 29px;
+}
